@@ -35,9 +35,9 @@ body {
 }
 
 .header-bottom img {
-  width: 275;
-  height: 183;
-  flex-shrink: 0;
+  width: 600;
+  height: 300;
+  overflow: hidden;
   object-fit: contain;
 }
 
@@ -97,6 +97,12 @@ a {
   text-align: center;
 }
 
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
 .quote-section {
   background-color: #E5E7EB;
   display: flex;
@@ -114,6 +120,7 @@ a {
 .quote-author {
   font-weight: bolder;
   text-align: right;
+  padding-top: 24px;
 }
 
 .sign-up {
