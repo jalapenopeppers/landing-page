@@ -115,3 +115,41 @@ a {
   font-weight: bolder;
   text-align: right;
 }
+
+.sign-up {
+  padding: 50px 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-box {
+  width: 550px;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: center;
+  padding: 24px 48px;
+}
+
+.sign-up-box-text {
+  padding-right: 50px;
+}
+
+.call-to-action-text {
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.sign-up-subtext {
+  color: #E5E7EB;
+}
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0px;
+}
+
+.footer-text {
+  color: #E5E7EB;
+}
