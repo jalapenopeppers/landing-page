@@ -96,3 +96,22 @@ a {
   margin: 0px 12px;
   text-align: center;
 }
+
+.quote-section {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author {
+  font-weight: bolder;
+  text-align: right;
+}
